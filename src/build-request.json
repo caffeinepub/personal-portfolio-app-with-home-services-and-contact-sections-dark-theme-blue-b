@@ -1,0 +1,38 @@
+{
+  "kind": "build_request",
+  "title": "Update Home page name to Shiv Shankar Kumar Saket",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "text": "Update the Home section headline to display the portfolio owner name as \"Shiv Shankar Kumar Saket\" (replacing the current placeholder name) while keeping the surrounding welcome message text in English.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Full name mera naam hai Shiv Shankar Kumar Saket"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Home section heading shows: \"Hi, I'm Shiv Shankar Kumar Saket\".",
+        "No other user-facing text is changed away from English.",
+        "The change is implemented in the existing Home section component (frontend/src/sections/HomeSection.tsx)."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit any files under frontend/src/components/ui (immutable UI component sources).",
+    "Keep user-facing text in English (except for the user’s name)."
+  ],
+  "nonGoals": [
+    "Adding new sections/pages or changing the site navigation behavior.",
+    "Changing the backend contact submission logic or schema.",
+    "Redesigning the overall theme or layout."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

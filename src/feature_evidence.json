@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-home-section-headline-to-display-the-portfolio-owner-name-as-shiv-shankar-kumar-saket-replacing-the-current-placeholder-name-while-keeping-the-surrounding-welcome-message-text-in-english",
+      "featureTitle": "Update the Home section headline to display the portfolio owner name as \"Shiv Shankar Kumar Saket\" (replacing the current placeholder name) while keeping the surrounding welcome message text in English.",
+      "files": [
+        "frontend/src/sections/HomeSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update Home section headline name",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "summary": "Replace the placeholder portfolio owner name in the Home section headline with \"Shiv Shankar Kumar Saket\" while keeping the surrounding welcome message text in English.",
+      "acceptanceCriteria": [
+        "The Home section heading shows: \"Hi, I'm Shiv Shankar Kumar Saket\".",
+        "No other user-facing text is changed away from English.",
+        "The change is implemented in the existing Home section component (frontend/src/sections/HomeSection.tsx)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/sections/HomeSection.tsx",
+          "operation": "modify",
+          "description": "Update the Home section headline by replacing the current placeholder name (\"Alex Johnson\") with \"Shiv Shankar Kumar Saket\" while leaving all other surrounding welcome text in English and keeping the change confined to this existing component."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component managing section navigation state and rendering the active section (Home, Services, or Contact) with header and footer.",
+  "frontend/src/components/HeaderNav.tsx": "Responsive navigation header with desktop and mobile menu support, highlighting the active section with blue styling.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright notice and attribution link to caffeine.ai with a heart icon.",
+  "frontend/src/sections/HomeSection.tsx": "Home section displaying portfolio owner's name (Shiv Shankar Kumar Saket), welcome message, statistics, and call-to-action buttons.",
+  "frontend/src/sections/ServicesSection.tsx": "Services section showcasing six professional services in a responsive card grid with icons, descriptions, and feature lists.",
+  "frontend/src/sections/ContactSection.tsx": "Contact form section with name and message fields, validation, success/error feedback, and additional contact information cards.",
+  "frontend/src/hooks/useQueries.ts": "React Query hook for submitting contact form data to the backend actor with mutation handling.",
+  "frontend/src/index.css": "Global styles with customized OKLCH color tokens for a modern dark theme with blue primary colors and proper contrast.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended color system, Inter font family, and custom design tokens for the dark theme."
+}
